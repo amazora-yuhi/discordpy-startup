@@ -32,7 +32,6 @@ async def neko(ctx):
     await message.send_message(message.channel, "ドジ")
 else: #それ以外なので今回の場合100が出た時に処理される
     await message.send_message(message.channel, "マヌケ")
-    
-    
+        
     
 bot.run(token)
