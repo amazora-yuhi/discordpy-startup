@@ -25,10 +25,7 @@ async def neko(ctx):
 async def inu(ctx):
     await ctx.send('わん')
     
-import random
-if message.content == "dice":
-    dice = random.randint(1, 6)
-    await message.send_message(message.channel, str(dice))
+
     
     
 bot.run(token)
