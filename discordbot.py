@@ -31,4 +31,5 @@ if message.content == "dice":
     dice = random.randint(1, 6)
     await message.send_message(message.channel, str(dice))
     
+    
 bot.run(token)
