@@ -25,9 +25,6 @@ async def neko(ctx):
 async def inu(ctx):
     await ctx.send('わん')
     
-def dice(dice_size):
-    num = np.random.randint(1, int(dice_size)) 
-    return num
-    
+
     
 bot.run(token)
