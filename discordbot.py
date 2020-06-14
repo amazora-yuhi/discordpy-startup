@@ -21,7 +21,7 @@ async def ping(ctx):
 async def neko(ctx):
     await ctx.send('にゃーん')
 
-@bot.command()
+    @bot.command()
     if message.content == "dice":
     dice = random.randint(0, 100) #出る目を指定
     if 0 < dice < 50: #1～49
